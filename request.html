@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Travis Bennett | Software Engineer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt%3A400%2C700%7CPlay%3A400%2C700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <script> alert("This form is not yet functional")</script>
+  </head>  
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Travis Bennett</h1>
+        <h2>Software Engineer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class=>Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+     </header>
+     <div id="wrapper">
+          <p>Please fill out the necessary details below to submit a request for building or administrating your webpage.
+          </p>
+      <form action="request.html" method="post" name="request_form">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for"fname">First Name:</label>
+            <input type="text" name="fname"><br>
+            <label for"lname">Last Name:</label>
+            <input type="text" name="lname"><br>
+            <label for"email">Email:</label>
+            <input type="text" name="email"><br>
+            </fieldset>
+
+            <fieldset>
+              <legend>Website Details</legend>
+                What are your needs?
+                <select name="need" id="need">
+                  <label for="need"></label>
+                  <optgroup label="need">
+                    <option>The website is is built and needs an administrator</option>
+                    <option selected="true">The website needs built and administrated</option>
+                    <option>The website only needs built</option>
+                  </optgroup>
+                </select><br><br>
+                <label for="add_details">Additional Details:</label>
+                <textarea name="add_details" rows="25" cols="50"></textarea> <br><br>        
+            </fieldset><br>
+          <button type="submit" align="center">Submit</button>
+          <button type="reset" name="Clear" align="center">Clear</button>  
+      </form>
+
+      <footer>
+        <a href="http://facebook.com/soldierforus"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <a href="http://linkedin.com/in/travisdavidbennett"><img src="img/in-wrap.jpeg" alt="Linkedin Logo" class="social-icon" /></a>
+        <p>&copy; 2014 Travis Bennett.</p>
+          </footer>
+      </div>
+    </body>
+</html>
